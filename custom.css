@@ -1,0 +1,174 @@
+.blog-thumbnail {
+    /*width: 10em;*/
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+hr {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.glyphicon.glyphicon-heart:hover {
+    cursor: pointer;
+}
+
+.navbar-header, .nav.navbar-nav li a {
+    float: left;
+    margin-left: 1em;
+    font-weight: bold;
+}
+
+.navbar-header, .nav.navbar-nav {
+    margin-left: 10em;
+}
+
+.container-fluid {
+    margin-top: 0.5em;
+    background-color: white;
+}
+
+.navbar.navbar-default {
+    border: none;
+}
+
+.preview-image {
+  background: no-repeat center center;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  width: 100%;
+  height: 15em;
+}
+
+.intro-header {
+  background-color: #808080;
+  background: no-repeat center center;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  margin-bottom: 50px;
+}
+.intro-header .site-heading,
+.intro-header .blog-heading,
+.intro-header .page-heading {
+  padding: 100px 0 50px;
+  color: white;
+}
+@media only screen and (min-width: 768px) {
+  .intro-header .site-heading,
+  .intro-header .blog-heading,
+  .intro-header .page-heading {
+    padding: 150px 0;
+  }
+}
+.intro-header .site-heading,
+.intro-header .page-heading {
+  text-align: center;
+}
+.intro-header .site-heading h1,
+.intro-header .page-heading h1 {
+  margin-top: 0;
+  font-size: 50px;
+  font-weight: bold;
+}
+.intro-header .site-heading .subheading,
+.intro-header .page-heading .subheading {
+  font-size: 24px;
+  line-height: 1.1;
+  display: block;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  margin: 10px 0 0;
+}
+@media only screen and (min-width: 768px) {
+  .intro-header .site-heading h1,
+  .intro-header .page-heading h1 {
+    font-size: 80px;
+  }
+}
+.intro-header .blog-heading h1 {
+  font-size: 35px;
+}
+.intro-header .blog-heading .subheading,
+.intro-header .blog-heading .meta {
+  line-height: 1.1;
+  display: block;
+}
+.intro-header .blog-heading .subheading {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  margin: 10px 0 30px;
+  font-weight: 600;
+}
+.intro-header .blog-heading .meta {
+  font-family: 'Lora', 'Times New Roman', serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 20px;
+}
+.intro-header .blog-heading .meta a {
+  color: white;
+}
+@media only screen and (min-width: 768px) {
+  .intro-header .blog-heading h1 {
+    font-size: 55px;
+  }
+  .intro-header .blog-heading .subheading {
+    font-size: 30px;
+  }
+}
+
+
+
+/* Blog CSS */
+
+.blog-preview > a {
+  color: #404040;
+}
+.blog-preview > a:hover,
+.blog-preview > a:focus {
+  text-decoration: none;
+  color: #0085a1;
+}
+.blog-preview > a > .blog-title {
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.blog-preview > a > .blog-subtitle {
+  margin: 0;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.blog-preview > .blog-meta {
+  color: #808080;
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 0;
+}
+.blog-preview > .blog-meta > a {
+  text-decoration: none;
+  color: #404040;
+}
+.blog-preview > .blog-meta > a:hover,
+.blog-preview > .blog-meta > a:focus {
+  color: #0085a1;
+  text-decoration: underline;
+}
+@media only screen and (min-width: 768px) {
+  .blog-preview > a > .blog-title {
+    font-size: 36px;
+  }
+}
+
+
+
+
+
