@@ -47,7 +47,7 @@ hr {
 
 .intro-header {
   background-color: #808080;
-  background: no-repeat center center;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), no-repeat center center;
   background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -55,6 +55,9 @@ hr {
   -o-background-size: cover;
   margin-bottom: 50px;
 }
+
+
+
 .intro-header .site-heading,
 .intro-header .blog-heading,
 .intro-header .page-heading {
