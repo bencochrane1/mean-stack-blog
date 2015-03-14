@@ -28,8 +28,8 @@ app.controller('MainController', [
                 readtime: $scope.readtime,
                 recommends: 0,
                 comments: [
-                    { commenter: 'Ben', comment: 'This is a great article', recommends: 0 },
-                    { commenter: 'Sam', comment: 'This is even better', recommends: 0 }
+                    { commenter: 'Ben', comment: 'This is a great article' },
+                    { commenter: 'Sam', comment: 'This is even better' }
                 ]
             });
             $scope.title = '';
