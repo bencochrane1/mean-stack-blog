@@ -84,7 +84,3 @@ app.config([
         $urlRouterProvider.otherwise('welcome')
     }
 ]);
-
-
-
-
